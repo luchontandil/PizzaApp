@@ -1,0 +1,19 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+newIngredient:
+  path: /api/addIngredient
+  controller: App\Controller\IngredientController::newIngredient
+
+getIngredients:
+  path: /api/getIngredients
+  controller: App\Controller\IngredientController::getIngredients
+
+deleteIngredient:
+  path: /api/deleteIngredient
+  controller: App\Controller\IngredientController::deleteIngredient
+
+newPizza:
+  path: /api/newPizza
+  controller: App\Controller\PizzaController::newPizza
